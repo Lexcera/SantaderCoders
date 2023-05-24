@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas no html</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+            <h1>Tabelas no HTML</h1>
+
+        <section id="students">
+            <h2>Tabela de alunos</h2>
+
+            <table border="5">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>e-mail</th>
+                        <th>Matricula</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Carol Denvers</td>
+                        <td>carol.denvers@mail.com</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Peter Park</td>
+                        <td>peter.park@mail.com</td>
+                        <td>2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tony Stark</td>
+                        <td>tony.stark@mail.com</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <section id="finance">
+            <h2>Tabela De Controle Financeiro</h2>
+
+            <table border="5">
+                <thead>
+                    <th>Data</th>
+                    <th>Tipo</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2" >15/06/22</td>
+                        <td colspan="2" >Despesa</td>
+                        <!-- <td>Almoço</td> -->
+                        <td>R$ 35,00</td>
+                    </tr>
+
+                    <tr>
+                        <td>receita</td>
+                        <td>Salario</td>
+                        <td>R$ 3768,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
