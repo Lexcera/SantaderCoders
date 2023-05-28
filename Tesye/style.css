@@ -1,13 +1,13 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 5px;
+    /* padding: 0; */
 }
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
     color: black;
-    background-image: url('https://i.stack.imgur.com/s17Qi.jpg');
+    /* background-image: url('https://i.stack.imgur.com/s17Qi.jpg'); */
     background-repeat: no-repeat;
     background-size: 200%;
 }
@@ -33,3 +33,11 @@ p{
     color: blue;
 }
 
+.compras {
+    /* padding: 35px; */
+    margin: 35px;
+}
+
+table thead{
+    color: blue;
+}
